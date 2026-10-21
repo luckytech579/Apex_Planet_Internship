@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic web structure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:black; color: white;" >
+
+    <!-- <h1>pooja photo studio</h1>
+
+    <p>where memories are emotions</p> -->
+    <header>
+         <h1>pooja photo studio</h1>
+
+    <p>where memories are emotions</p>
+    <nav>
+        <ul>
+            <li><a> gallery</a></li>
+            <li><a>About</a></li>
+            <li><a>instagram</a></li>
+           
+            
+        </ul>
+
+        <main>
+            <section id="hero">
+                <h1>capturing moments in frames</h1>
+                <p>
+                    At Pooja Photo Studio, fleeting moments find a permanent home in timeless frames. Where soft light meets genuine emotion, we blend artistic vision with technical precision to capture the raw joy of celebrations, the quiet intimacy of portraits, and the vibrant stories of everyday life. Step into our studio and turn today’s laughter and milestones into tomorrow’s cherished heirlooms.
+                </p>
+                <button id="book-session">Book a session</button>
+
+            </section>
+
+            <section id="services">
+                <h2>Our Services</h2>
+                <ul>
+                    <li>Wedding Photography</li>
+                    <li>Portrait Sessions</li>
+                    <li>Event Coverage</li>
+                    <li>Commercial Shoots</li>
+                </ul>
+
+            </section>
+
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Email:
+    <a href="mailto:info@poojaphotostudio.com">info@poojaphotostudio.com</a>
+                </p>
+            </section>
+
+
+            <section id="testimonials">
+                <h2>What Our Clients Say</h2>
+                <blockquote>
+                    "Pooja Photo Studio captured our wedding day perfectly! The photos are stunning and the team was professional and friendly." - A Happy Client
+                </blockquote>
+            </section>
+
+            <section id="portfolio">
+                <h2>moments we cherish</h2>
+                <div class="portfolio-grid">
+                    <!-- <img src="https://search.brave.com/images?q=wedding+photo&context=W3sic3JjIjoiaHR0cHM6Ly9pbWFnZS53ZWRtZWdvb2QuY29tL3Jlc2l6ZWQtbncvNTAwWDMwMC93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8xMi9Db2xsYWdlX0ZvdG9yMi5qcGciLCJ0ZXh0IjoicmVhbC13ZWRkaW5nLWltZyIsInBhZ2VfdXJsIjoiaHR0cHM6Ly93d3cud2VkbWVnb29kLmNvbS9kZWxoaS1uY3Itd2VkZGluZyJ9XQ%3D%3D&sig=96da1ab00eed4454cd3132811de8724cd1d9527c7ba85b93e4e8c3741255eac4&nonce=d3dd64f91b9c97be45493e3f57fc6a79&source=imageCluster" alt="Wedding Photo 1">
+                    <img src="https://imgs.search.brave.com/twdWLrhqaMbTMAE00wCAa6j4yja3hwntE-edwgaZBHU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzZmLzM1/LzQ4LzZmMzU0ODQz/MWVkZDhhMWQ4NWM3/YmU2MGNjNzg4Njhi/LmpwZw" alt="Portrait Photo 1">
+                    <img src="https://search.brave.com/images?q=event+photo&context=W3sic3JjIjoiaHR0cHM6Ly9pbWFnZS53ZWRtZWdvb2QuY29tL3Jlc2l6ZWQtbncvNTAwWDMwMC93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8xMi9Db2xsYWdlX0ZvdG9yMi5qcGciLCJ0ZXh0IjoicmVhbC13ZWRkaW5nLWltZyIsInBhZ2VfdXJsIjoiaHR0cHM6Ly93d3cud2VkbWVnb29kLmNvbS9kZWxoaS1uY3Itd2VkZGluZyJ9XQ%3D%3D&sig=96da1ab00eed4454cd3132811de8724cd1d9527c7ba85b93e4e8c3741255eac4&nonce=d3dd64f91b9c97be45493e3f57fc6a79&source=imageCluster" alt="Event Photo 1">
+                    <img src="https://search.brave.com/images?q=commercial+photo&context=W3sic3JjIjoiaHR0cHM6Ly9pbWFnZS53ZWRtZWdvb2QuY29tL3Jlc2l6ZWQtbncvNTAwWDMwMC93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8xMi9Db2xsYWdlX0ZvdG9yMi5qcGciLCJ0ZXh0IjoicmVhbC13ZWRkaW5nLWltZyIsInBhZ2VfdXJsIjoiaHR0cHM6Ly93d3cud2VkbWVnb29kLmNvbS9kZWxoaS1uY3Itd2VkZGluZyJ9XQ%3D%3D&sig=96da1ab00eed4454cd3132811de8724cd1d9527c7ba85b93e4e8c3741255eac4&nonce=d3dd64f91b9c97be45493e3f57fc6a79&source=imageCluster" alt="Commercial Photo 1"> -->
+                        <img src="https://imgs.search.brave.com/twdWLrhqaMbTMAE00wCAa6j4yja3hwntE-edwgaZBHU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzZmLzM1/LzQ4LzZmMzU0ODQz/MWVkZDhhMWQ4NWM3/YmU2MGNjNzg4Njhi/LmpwZw" alt="Wedding joy">
+
+
+                        <img src="https://imgs.search.brave.com/gg3yh79i1sgltSVE6mK6qt8_VxPe8u6_7oRpkAKHJV0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS1hcGkueG9ncnAu/Y29tL2ltYWdlcy8y/NDFjNGNkOS1mYTJh/LTQzOTItYmI1Ni1m/MDIwNzQwYTI3MTh-/cnNfNzY4Lmg" alt="taking vows">
+
+                        <img src="https://imgs.search.brave.com/glx6-LBAevU-j934r6wcYu06kOoJgu5iHto4xzslMLU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9kMzk3/YmZ5NGd2Z2NkbS5j/bG91ZGZyb250Lm5l/dC80NTAwNTMtSGV2/RzRUQm1vWmNITkoz/WF9KSy1iVzE0VVQ1/dm5mS3FtTDFlTHRE/YVBCNXFpUm5NV0hK/andod2RLbkFSOTVB/N1hla2NaaFBCcnlC/bkdIbDZUcW1mMkVn/NU1vXzFZU21YdU54/WTVwT05XTHZDRHRi/MThNX3ZXYjNQZ3l2/Sm42X3BZSDhhek1u/bXpBSUpVMnJuMmpv/bE9pUTRTZWNsTnhu/WjFmckVLNFBkUDJU/c1FyM2lMRmRGVlBN/OFhPRUozbTBmLmpw/ZWc" alt="joy together">
+
+
+                        <img src="https://imgs.search.brave.com/5L6zFIDOZZnsfg8JHbg4v56yT_RlNAaSUSTH5buJrEw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZS53ZWRtZWdvb2Qu/Y29tL3Jlc2l6ZWQv/NDUwWC91cGxvYWRz/L2ltYWdlcy9lMDEw/ZWUzZDBjNWI0YzMx/OTg5MjQwN2EyMzEy/MTRjOXJlYWx3ZWRk/aW5nL0RBWTAyX1NB/TllBJlJBSElMX1dF/RERJTkctNDUyNC5q/cGc" alt="all smiles">
+
+            
+              
+                </div>
+
+</nav>
+    </header>
+
+        </main>
+    
+
+    <footer>
+       
+<!-- Footer Section -->
+<footer style="background-color: #121212; color: #e0e0e0; padding: 60px 20px 20px; font-family: sans-serif; line-height: 1.6;">
+  <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 40px;">
+    
+    <!-- Column 1: Brand & Bio -->
+    <div>
+      <h3 style="color: #ffffff; font-size: 1.5rem; margin-bottom: 15px; letter-spacing: 1px;">POOJA PHOTO STUDIO</h3>
+      <p style="color: #a0a0a0; font-size: 0.95rem; margin-bottom: 20px;">
+        Preserving life’s most authentic smiles, grand celebrations, and quiet milestones through timeless, artistic visual storytelling.
+      </p>
+      <div style="display: flex; gap: 15px;">
+        <a href="#" style="color: #e0e0e0; text-decoration: none; font-size: 0.9rem;">Instagram</a>
+        <a href="#" style="color: #e0e0e0; text-decoration: none; font-size: 0.9rem;">Facebook</a>
+        <a href="#" style="color: #e0e0e0; text-decoration: none; font-size: 0.9rem;">YouTube</a>
+        <a href="#" style="color: #e0e0e0; text-decoration: none; font-size: 0.9rem;">WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Column 2: Quick Links -->
+    <div>
+      <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 15px; border-bottom: 2px solid #d4af37; display: inline-block; padding-bottom: 5px;">Quick Links</h4>
+      <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.95rem;">
+        <li style="margin-bottom: 10px;"><a href="#home" style="color: #a0a0a0; text-decoration: none;">Home</a></li>
+        <li style="margin-bottom: 10px;"><a href="#portfolio" style="color: #a0a0a0; text-decoration: none;">Portfolio & Gallery</a></li>
+        <li style="margin-bottom: 10px;"><a href="#about" style="color: #a0a0a0; text-decoration: none;">About the Team</a></li>
+        <li style="margin-bottom: 10px;"><a href="#pricing" style="color: #a0a0a0; text-decoration: none;">Packages & Pricing</a></li>
+        <li style="margin-bottom: 10px;"><a href="#reviews" style="color: #a0a0a0; text-decoration: none;">Client Testimonials</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Photography Services -->
+    <div>
+      <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 15px; border-bottom: 2px solid #d4af37; display: inline-block; padding-bottom: 5px;">Our Services</h4>
+      <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.95rem;">
+        <li style="margin-bottom: 10px;"><a href="#weddings" style="color: #a0a0a0; text-decoration: none;">Wedding & Pre-Wedding</a></li>
+        <li style="margin-bottom: 10px;"><a href="#maternity" style="color: #a0a0a0; text-decoration: none;">Maternity & Newborn</a></li>
+        <li style="margin-bottom: 10px;"><a href="#portraits" style="color: #a0a0a0; text-decoration: none;">Studio Portraits & Headshots</a></li>
+        <li style="margin-bottom: 10px;"><a href="#events" style="color: #a0a0a0; text-decoration: none;">Events & Anniversaries</a></li>
+        <li style="margin-bottom: 10px;"><a href="#commercial" style="color: #a0a0a0; text-decoration: none;">Commercial & Product Shoots</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 4: Contact & Hours -->
+    <div>
+      <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 15px; border-bottom: 2px solid #d4af37; display: inline-block; padding-bottom: 5px;">Visit & Connect</h4>
+      <p style="color: #a0a0a0; font-size: 0.95rem; margin-bottom: 8px;">
+        📍 Main Market Road, Near City Center,<br>[City, State, PIN]
+      </p>
+      <p style="color: #a0a0a0; font-size: 0.95rem; margin-bottom: 8px;">
+        📞 +91 98765 43210 / +91 91234 56789
+      </p>
+      <p style="color: #a0a0a0; font-size: 0.95rem; margin-bottom: 8px;">
+        ✉️ bookings@poojaphotostudio.com
+      </p>
+      <p style="color: #a0a0a0; font-size: 0.9rem; margin-top: 12px;">
+        🕒 Mon – Sat: 9:30 AM – 8:30 PM<br>
+        Sunday: By Appointment Only
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar: Legal & Copyright -->
+  <div style="border-top: 1px solid #2a2a2a; margin-top: 50px; padding-top: 20px; text-align: center; font-size: 0.85rem; color: #777;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px;">
+      <p style="margin: 0;">© 2026 Pooja Photo Studio. All rights reserved.</p>
+      <div style="display: flex; gap: 20px;">
+        <a href="#privacy" style="color: #777; text-decoration: none;">Privacy Policy</a>
+        <a href="#terms" style="color: #777; text-decoration: none;">Terms of Service</a>
+        <a href="#cancellation" style="color: #777; text-decoration: none;">Booking & Cancellation Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    </footer>
+        <script src="script.js"></script>
+
+</body>
+</html>
